@@ -2,16 +2,15 @@
 name = "ds-project"
 version = "0.1.0"
 description = "Template repository to start your Data Science or Machine Learning project from"
-authors = ["Vladilav Goncharenko <vladislav.goncharenko@phystech.edu>"]
-maintainers = ["Vladislav Goncharenko <vladislav.goncharenko@phystech.edu>"]
 readme = "README.md"
-repository = "https://github.com/v-goncharenko/data-science-template"
-documentation = "https://girafe.ai/"
+repository = "https://github.com/vitobrat/ml_project"
 keywords = ["reproducibility", "data science", "machine learning", "template"]
-license = "Apache-2.0"
 
 [tool.poetry.dependencies]
-python = "~3.11"
+python = "~3.12"
+requests = "^2.32.2"
+scikit-learn = "^1.5.0"
+torch = "^2.3.0"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.6.0"
